@@ -1,0 +1,158 @@
+/* Override container width */
+.hero-area.container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 2rem 15px !important; /* Vertical padding + horizontal spacing */
+    background-color: #0f2d2f !important;
+}
+.text-xl.md\:text-3xl.font-bold {
+  color: white;
+}
+.main-nav-container.fixed-pinned.animated.fixed-header {
+  background-color: #0f2d2f !important;
+
+}
+.store-header.has-no-logo {
+  background-color: #0f2d2f !important;
+
+}
+.sicon-search.text-xl.lg\:text-sm {
+  color: white;
+}
+.icon.sicon-user {
+  color: white;
+}
+.icon.sicon-shopping-bag.leading-none {
+  color: white;
+}
+.s-cart-summary-icon path {
+  fill: white;
+  /* إذا كانت الأيقونة SVG */
+}
+.s-cart-summary-total {
+  color: white;
+}
+.text{
+  color: white;
+}
+
+.sicon-menu.text-2xl.pointer-events-none {
+  color: white;
+}
+.inner.bg-inherit {
+  background-color: #0f2d2f;
+
+}
+li.root-level.has-children.slide-toggler.mobile-accordion.accordion_0 span {
+  color: white;
+
+}
+.text-sm {
+  color: white;
+
+}
+.s-button-element {
+    background-color: #0f2d2f;
+    color: white;
+    border: 1px solid #0f2d2f;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-button-element:hover {
+    opacity: 0.9;
+}
+
+.s-button-element .s-button-text {
+    display: inline-flex;
+    align-items: center;
+}
+
+.s-button-element .sicon-shopping-bag {
+    font-size: 16px;
+}
+
+/* Additional utility classes if needed */
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-2\.5 {
+    gap: 0.625rem;
+}
+
+/* Button states */
+.s-button-element:active {
+    transform: scale(0.98);
+}
+
+.s-button-element:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.menu-fixed-bar{
+  background-color: #0f2d2f !important;
+}
+/* Background color for entire footer section */
+.footer-wrapper, 
+.store-footer, 
+.store-footer__inner {
+  background-color: #0f2d2f !important;
+}
+
+/* White text for all elements inside footer */
+.footer-wrapper *:not(img) { /* exclude images from color change */
+  color: white !important;
+}
+
+/* Force override for gray links */
+.text-gray-600.block,
+.store-footer a {
+  color: white !important;
+}
+
+/* SVG icons color */
+.store-footer svg {
+  fill: white !important;
+  stroke: white !important;
+}
+
+/* Contact items spacing */
+.s-contacts-item {
+  gap: 8px !important;
+}
+/* Background and text color for this column */
+.col-span-12.sm\:col-span-6.lg\:col-span-2 {
+  background-color: #0f2d2f;
+  color: white;
+}
+
+/* Force white text in icons component */
+.col-span-12.sm\:col-span-6.lg\:col-span-2 * {
+  color: white !important;
+}
+
+/* Style SVG icons if they exist inside */
+.col-span-12.sm\:col-span-6.lg\:col-span-2 svg {
+  fill: white !important;
+  stroke: white !important;
+}
+
+/* If icons have their own wrapper */
+salla-apps-icons.hydrated {
+  display: flex;
+  gap: 1rem; /* adjust spacing between icons */
+}
+.store-footer__info-bar{
+  background-color: #0f2d2f !important;
+    border-top: 1px solid white;
+
+}
