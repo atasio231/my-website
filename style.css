@@ -171,3 +171,6 @@ button.s-button-element .s-button-text,
 button.s-button-element .sicon-shopping-bag {
     color: white !important;
 }
+.sicon-heart{
+  color: red;
+}
