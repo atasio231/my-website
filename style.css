@@ -156,3 +156,18 @@ salla-apps-icons.hydrated {
 
 
 }
+button.s-button-element.s-button-outline.s-button-primary-outline {
+    background-color: #0f2d2f !important;
+    color: white !important;
+    border-color: #0f2d2f !important;
+}
+
+button.s-button-element.s-button-outline.s-button-primary-outline:hover {
+    opacity: 0.9 !important;
+}
+
+/* Also target the text and icon inside */
+button.s-button-element .s-button-text,
+button.s-button-element .sicon-shopping-bag {
+    color: white !important;
+}
